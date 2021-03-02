@@ -1,0 +1,7 @@
+version: "1"
+services:
+  - name: feathers:0.1.0
+    description: A feathers example
+    run: npm start
+    port: [ '8080:8080' ]
+    domain: ""
